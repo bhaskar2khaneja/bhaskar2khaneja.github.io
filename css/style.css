@@ -15,3 +15,42 @@
         opacity: 1;
     }
 }
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    padding: 5px;
+}
+
+#name {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+}
+
+#typed {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+#links {
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+.spaced {
+    padding: 15px;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-color: #EFDACA;
+    margin: 0 auto;
+}
