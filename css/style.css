@@ -26,67 +26,16 @@
     }
 }
 
-/*#particles-js {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-#main {
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    z-index: 9999;
-    border: 1px solid red;
-    margin: 0 auto;
-}
-
-#logo {
-    padding: 5px;
-    border: 1px solid red;
-}
-
-#name {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 60px;
-    border: 1px solid red;
-}
-
-#typed {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 30px;
-    border: 1px solid red;
-}
-
-#links {
-    padding-top: 70px;
-    font-size: 25px;
-    border: 1px solid red;
-}
-
-.spaced {
-    padding: 15px;
-}
-
-.center {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}*/
-
 #main-container {
-    /*position: absolute;*/
     height: 100%;
     display: flex;
     justify-content: center;
-    /*border: 1px solid red;*/
 }
 
 #main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /*border: 1px solid blue;*/
     height: 90%;
     z-index: 9999;
 }
@@ -94,15 +43,13 @@
 #links-container {
     display: flex;
     justify-content: center;
-    /*border: 1px solid red;*/
 }
 
 #links {
-    width: 170px;
+    width: 190px;
     display: flex;
     justify-content: space-between;
-    font-size: 25px;
-    /*border: 1px solid red;*/
+    font-size: 28px;
 }
 
 #logo {
@@ -111,7 +58,6 @@
     height: 50%;
     padding-top: 15px;
     padding-bottom: 10px;
-    /*border: 1px solid red;*/
 }
 
 #name {
@@ -119,7 +65,6 @@
     justify-content: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 60px;
-    /*border: 1px solid red;*/
 }
 
 #typed-strings {
@@ -131,7 +76,6 @@
 #typed-container {
     display: flex;
     justify-content: center;
-  /*  border: 1px solid red;*/
     margin: 5px;
 }
 
@@ -139,7 +83,6 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 30px;
     padding-right: 0;
-    /*border: 2px solid green;*/
 }
 
 a:link, a:visited {
