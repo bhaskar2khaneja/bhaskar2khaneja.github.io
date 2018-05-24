@@ -87,9 +87,12 @@
 
 a:link, a:visited {
     color: #000000;
+    transform: scale(1);
+    transition: all .3s;
 }
 
 a:hover {
+    transform: scale(1.15);
     color: orange;
 }
 
