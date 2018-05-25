@@ -8,7 +8,6 @@
 .typed-cursor {
     font-size: 40px;
     font-weight: normal;
-    padding-right: 25px;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
@@ -67,12 +66,6 @@
     font-size: 60px;
 }
 
-#typed-strings {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-}
-
 #typed-container {
     display: flex;
     justify-content: center;
@@ -83,6 +76,7 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 30px;
     padding-right: 0;
+    text-align: center;
 }
 
 a:link, a:visited {
@@ -105,4 +99,29 @@ a:hover {
 html, body {
     background-color: #EFDACA;
     height: 100%;
+}
+
+/* Mobile Styles */
+@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+    #links {
+        width: 350px;
+        font-size: 55px;
+    }
+
+    #logo {
+        height: 65%;
+    }
+
+    #name {
+        font-size: 120px;
+    }
+
+    #typed {
+        font-size: 55px;
+    }
+
+    .typed-cursor {
+        font-size: 60px;
+    }
+
 }

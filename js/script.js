@@ -5,8 +5,7 @@ var typed = new Typed('#typed', {
 	backSpeed: 10,
 	backDelay: 2000,
 	smartBackspace: false,
-	loop: true,
-	//fadeOut: true
+	loop: true
 });
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
